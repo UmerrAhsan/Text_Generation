@@ -1,2 +1,2 @@
 # Text_Generation
-Finetuning Distilled Gpt2 for Test Genration
+Finetuning Distilled Gpt-2 for Test Genration

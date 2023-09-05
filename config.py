@@ -1,7 +1,6 @@
 '''
 This is the configuration file for the project.
 if you want to change any of the parameters, you can change it here. We will change the model and tokenizer in this file.
-Like: we can use ALBERT model instead of DistilBert model. Use 'twmkn9/albert-base-v2-squad2'. 
 '''
 CFG = {
 
@@ -23,7 +22,7 @@ CFG = {
         'model_name': 'distilgpt2'
     },
     'trainer': {
-        'output_dir': 'weights\TextQA_UsingDistilBert',
+        'output_dir': 'weights',
         'evaluation_strategy': 'epoch',
         'learning_rate': 2e-5,
         'per_device_train_batch_size': 16,
@@ -34,7 +33,7 @@ CFG = {
     },
     'inference': {
         'inferece_task': 'question-answering',
-        'model_path': 'weights\TextQA_UsingDistilBert'
+        'model_path': 'weights'
     }
 
     }

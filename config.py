@@ -32,7 +32,7 @@ CFG = {
         'push_to_hub': True
     },
     'inference': {
-        'inferece_task': 'question-answering',
+        'inferece_task': 'Text_Generation',
         'model_path': 'weights'
     }
 
